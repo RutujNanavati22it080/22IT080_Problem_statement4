@@ -1,0 +1,50 @@
+name: flutter_application_1
+description: A SmartFab Industries Material Tracking & Costing App
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.7.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Core Flutter packages
+  cupertino_icons: ^1.0.6
+
+  # Firebase & Cloud
+  firebase_core: ^2.30.0
+  firebase_auth: ^4.18.0
+  cloud_firestore: ^4.16.0
+
+  # State Management
+  provider: ^6.1.2
+
+  # Local storage
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  path_provider: ^2.1.2
+
+  # QR / Barcode
+  qr_code_scanner: ^1.0.1
+  barcode_scan2: ^4.2.0
+
+  # File export
+  csv: ^5.0.2
+  pdf: ^3.10.6
+  printing: ^5.12.0
+
+  # UI/UX
+  flutter_svg: ^2.0.10
+  google_fonts: ^6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
